@@ -1,0 +1,140 @@
+/*------jumbotron header--------*/
+
+.change {
+    background: no-repeat top center url("../img/actualite.jpg");
+	background-size: cover;
+    width: 100%;
+    height: 750px;
+    margin: 0 !important;
+}
+
+.jumbotron {
+    padding-top: 4rem !important;
+}
+.fond h1 {
+    margin-top: 28.5rem;
+    color:  #292929;
+    font-size: 3rem;
+    font-family: 'oswald', sans-serif;
+}
+
+.fond p {
+    color:  #FBFBFB;
+    font-size: 25px;
+}
+
+.cont-separator {
+    height: 60px;
+    margin: 0 !important;
+    background-color: #292929 !important;
+}
+
+.cont-menu {
+    height: 90px;
+    margin: 0 !important;
+    background-color: #292929 !important;
+}
+
+/*-----------Intro contenu-------------*/
+
+.intro-actu {
+    background-color: #F7AC20;
+    text-align: justify;
+}
+
+.col-newsletter {
+    padding-right: 0 !important;
+}
+
+form {
+    background-color: #F7AC20;
+}
+
+#email-newsletter {
+    width: 20rem !important;
+}
+
+.btn-newsletter {
+    background-color: #292929 !important;
+    color:  #FBFBFB !important;
+}
+
+.btn-newsletter:active {
+    background-color: #FBFBFB !important;
+    color: #292929 !important;
+}
+
+/*-----------Contenu actualités-------------*/
+
+.card {
+    border: none !important;
+    border-radius: 0 !important;
+    cursor: pointer;
+    background-color: #F7AC20 !important;
+}
+
+.card-body {
+    height: 5rem;
+}
+
+.img-actu {
+    margin-top: 10px !important;
+    margin-left: 10px !important;
+    padding-right: 10px !important;
+    height: 290px;
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+
+.card:hover {
+    color:  #FBFBFB;
+    background-color: #292929 !important;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.link-page {
+    font-size: 25px;
+    color: #292929;
+}
+
+.link-page:hover {
+    color: #F7AC20;
+}
+
+@media (max-width: 768px) {
+
+    .change {
+        height: 330px;
+    }
+
+    .cont-separator {
+        height: 30px;
+    }
+
+    .fond h1 {
+        font-size: 30px;
+        margin-top: 10rem;
+    }
+
+    .intro-actu {
+        font-size: 15px;
+    }
+
+    .fond p {
+        font-size: 12px;
+    }
+
+    #email-newsletter {
+        width: 16.5rem !important;
+    }
+    .card-title {
+        font-size: 17px;
+    }
+
+    .img-actu {
+        height: 220px;
+    }
+}

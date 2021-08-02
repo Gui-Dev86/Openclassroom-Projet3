@@ -1,0 +1,126 @@
+
+/*------jumbotron header--------*/
+
+.change {
+    background: no-repeat top center url("../img/accueil.jpg");
+	background-size: cover;
+    width: 100%;
+    height: 750px;
+    margin: 0 !important;
+}
+
+.jumbotron {
+    padding-top: 4rem !important;
+}
+
+.fond h1 {
+    margin-top: 28.5rem;
+    color:  #FBFBFB;
+    font-size: 3rem;
+    font-family: 'oswald', sans-serif;
+}
+
+.titreh3 {
+    color:  #292929;
+}
+
+.fond p {
+    color:  #FBFBFB;
+    font-size: 25px;
+}
+
+.cont-separator {
+    height: 60px;
+    margin: 0 !important;
+    background-color: #292929 !important;
+}
+
+.cont-menu {
+    height: 90px;
+    margin: 0 !important;
+    background-color: #292929 !important;
+}
+
+/*-------Contenu--------*/
+
+.accueil-h3 {
+    color: #F7AC20 !important;
+}
+
+.img-accueil {
+    width: 100%;
+}
+
+/*------Titres séparateurs--------*/
+
+.titreh3 {
+    border-top: 5px dashed #292929;
+    border-bottom: 5px dashed #292929;
+    text-align: center;
+}
+
+/*------Actualités--------*/
+
+.fond-orange {
+    background-color: #F7AC20;
+}
+
+.card {
+    border-radius: 0 !important;
+    border: none !important;
+    cursor: pointer;
+}
+
+.card-body {
+    height: 6.5rem;
+}
+
+.img-actu {
+    margin-top: 10px !important;
+    margin-left: 10px !important;
+    padding-right: 10px !important;
+    height: 164px;
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+
+.card:hover {
+    color:  #FBFBFB;
+    background-color: #292929;
+}
+
+.card-title {
+    font-size: 100%;
+}
+
+/*----Réseaux sociaux-------*/
+
+.row-rs {
+    border-bottom: 5px dashed #292929;
+    text-align: center;
+}
+.logo-rs {
+    width:16%;
+    margin: 0 5%;
+    padding-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+
+    .change {
+        height: 330px;
+    }
+
+    .cont-separator {
+        height: 30px;
+    }
+
+    .fond h1 {
+        font-size: 1.5rem;
+        margin-top: 10rem;
+    }
+
+    .fond p {
+        font-size: 12px;
+    }
+}

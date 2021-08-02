@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Programmation - Les Films en Plein Air</title>
+        <link rel="stylesheet" href="css/nav-footer.css" />
+        <link rel="stylesheet" href="css/programmation.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+    </head>
+    
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md col-12 ">
+                <a class="navbar-brand" href="accueil.html">
+                <img src="img/logo2.png" class="logo" alt="Site logo"></a>
+                <button class="navbar-toggler align-center" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link font-weight-bold" href="accueil.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <p class="d-none d-md-block separator">|</p>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link font-weight-bold dropdown-toggle" href="#" role="button" data-toggle="dropdown" id="dropdownMenuLink" aria-expanded="false">Programmation</a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li class="li-item"><a class="dropdown-item font-weight-bold" href="programmation.html">Tous les films</a></li>
+                                <li class="li-item"><a class="dropdown-item font-weight-bold" href="programmation.html#aout5">Jeudi 5 Août</a></li>
+                                <li class="li-item"><a class="dropdown-item font-weight-bold" href="programmation.html#aout6">Vendredi 6 Août</a></li>
+                                <li class="li-item"><a class="dropdown-item font-weight-bold" href="programmation.html#aout7">Samedi 7 Août</a></li>
+                                <li class="li-item"><a class="dropdown-item font-weight-bold" href="programmation.html#aout8">Dimanche 8 Août</a></li>
+                                <li class="li-item"><a class="dropdown-item font-weight-bold" href="programmation.html#restauration-link">Restauration</a></li>
+                                <li class="li-item"><a class="dropdown-item font-weight-bold" href="programmation.html#acces-link">Accès</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <p class="d-none d-md-block separator">|</p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold" href="actualite.html">Actualités</a>
+                        </li>
+                        <li class="nav-item">
+                            <p class="d-none d-md-block separator">|</p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item item-reservation">
+                            <a class="nav-link font-weight-bold nav-link-reserver" href="reserver.html">Réserver</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container cont-menu col-12"></div>
+            <div class="jumbotron jumbotron-fluid change">
+                <div class="container col-12">
+                    <div class="fond">
+                        <h1 class="font-weight-bold">Découvrez tous les films du festival</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container cont-separator col-12"></div>
+        </header>
+            
+        <main>
+            <div class="container col-12">
+                <div class="row">
+                    <div class="col-12 col-md-8 offset-md-2 my-3 pt-2 pb-1 font-weight-bold intro-programmation" id="aout5">
+                        <p>Découvrez la programmation du festival, les films sélectionnés par de vrais passionnés pour des passionnés 
+                            ainsi que toutes les informations pratiques concernant les moyens de restauration mis à votre disposition ainsi que l'accès au parc.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-3 pb-5">
+                <div class="container col-12 pt-3">
+                    <div class="row" >   
+                        <div class="col-8 offset-2 col-md-4 offset-md-4 titreh3">
+                            <h3 class="font-weight-bold">Jeudi 5 Août</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 offset-md-1 mt-5">
+                        <p class="horaire text-center font-weight-bold">18h00 - 20h20</p>
+                        <div class="card">
+                            
+                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/vol-au-dessus-dun-nid-de-coucou.jpg" alt="Affiche du film Vol au dessus d'un nid de coucou">
+                            <div class="card-body">
+                                <h4 class="card-title text-center font-weight-bold">Vol au dessus d'un nid de coucou</h4>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary font-weight-bold btn-details" data-toggle="modal" data-target="#film1" >Détails</button>
+                                </div>
+                                <div class="modal fade" id="film1" tabindex="-1" role="dialog" style="display:none;" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="modal-header">
+                                                        <h3 class="font-weight-bold">Vol au dessus d'un nid de coucou</h3>
+                                                        <button type="button" class="close" data-dismiss="modal">X</button>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-6 text-center">
+                                                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/vol-au-dessus-dun-nid-de-coucou.jpg" alt="Affiche du film Vol au dessus d'un nid de coucou">
+                                                        </div>
+                                                        <div class="col-12 col-md-6 mt-3 infos-film">
+                                                            <p class="font-weight-bold mt-3">VOL AU DESSUS D'UN NID DE COUCOU</p>
+                                                            <p>1 mars 1976 en salle / 2h 09min / Drame</p>
+                                                            <p>De Milos Forman</p>
+                                                            <p>Avec Michael Berryman, Dean R. Brooks, Jack Nicholson</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 mx-4">
+                                                            <p class="mt-3 font-weight-bold">SYNOPSIS </p>
+                                                            <p class="text-justify synopsis-film">Rebellion dans un hôpital psychiatrique à l'instigation d'un malade qui se révolte contre la dureté d'une infirmière.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 offset-md-2 mt-5">
+                        <p class="horaire text-center font-weight-bold">21h00 - 23h30</p>
+                        <div class="card">
+                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/shining.jpg" alt="Affiche du film Shining">
+                            <div class="card-body">
+                                <h4 class="card-title text-center font-weight-bold">Shining</h4>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary font-weight-bold btn-details" data-toggle="modal" data-target="#film2" >Détails</button>
+                                </div>
+                                <div class="modal fade" id="film2" tabindex="-1" role="dialog" style="display:none;" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="modal-header">
+                                                        <h3 class="font-weight-bold">Shining</h3>
+                                                        <button type="button" class="close" data-dismiss="modal">X</button>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-6 text-center">
+                                                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/shining.jpg" alt="Affiche du film Shining">
+                                                        </div>
+                                                        <div class="col-12 col-md-6 mt-3 infos-film">
+                                                            <p class="font-weight-bold mt-3">SHINING</p>
+                                                            <p>16 octobre 1980 en salle / 2h 23min / Epouvante-horreur, Thriller</p>
+                                                            <p>De Stanley Kubrick</p>
+                                                            <p>Avec Jack Nicholson, Shelley Duvall, Danny Lloyd</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 mx-4">
+                                                            <p class="mt-3 font-weight-bold">SYNOPSIS </p>
+                                                            <p class="text-justify synopsis-film">Écrivain, Jack Torrance est engagé comme gardien, pendant tout l’hiver, d’un grand hôtel isolé du Colorado – l’Overlook – 
+                                                                où il espère surmonter enfin sa panne d’inspiration. Il s’y installe avec sa femme Wendy et son fils Danny, doté d’un don de médium. 
+                                                                Tandis que Jack n’avance pas dans son livre et que son fils est de plus en plus hanté par des visions terrifiantes, 
+                                                                il découvre les terribles secrets de l’hôtel et bascule peu à peu dans une forme de folie meurtrière où il s’en prend à sa propre famille…</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container col-12 pt-3">
+                    <div class="row" id="aout6">   
+                        <div class="col-8 offset-2 col-md-4 offset-md-4 titreh3">
+                            <h3 class="font-weight-bold">Vendredi 6 Août</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 mt-5">
+                        <p class="horaire text-center font-weight-bold">18h00 - 19h30</p>
+                        <div class="card">
+                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/les-temps-modernes.jpg" alt="Affiche du film Les temps modernes">
+                            <div class="card-body">
+                                <h4 class="card-title text-center font-weight-bold">Les Temps Modernes</h4>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary font-weight-bold btn-details" data-toggle="modal" data-target="#film3" >Détails</button>
+                                </div>
+                                <div class="modal fade" id="film3" tabindex="-1" role="dialog" style="display:none;" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="modal-header">
+                                                        <h3 class="font-weight-bold">Les temps modernes</h3>
+                                                        <button type="button" class="close" data-dismiss="modal">X</button>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-6 text-center">
+                                                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/les-temps-modernes.jpg" alt="Affiche du film Les temps modernes">
+                                                        </div>
+                                                        <div class="col-12 col-md-6 mt-3 infos-film">
+                                                            <p class="font-weight-bold mt-3">LES TEMPS MODERNES</p>
+                                                            <p>13 mars 1936 en salle / 1h 27min / Romance, Comédie dramatique</p>
+                                                            <p>De Charles Chaplin</p>
+                                                            <p>Avec Charles Chaplin, Paulette Goddard, Henry Bergman</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 mx-4">
+                                                            <p class="mt-3 font-weight-bold">SYNOPSIS </p>
+                                                            <p class="text-justify synopsis-film">Charlot est ouvrier dans une immense usine. Il resserre quotidiennement des boulons. Mais les machines, 
+                                                                le travail à la chaîne le rendent malade, il abandonne son poste et recueille une orpheline…</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-5">
+                        <p class="horaire text-center font-weight-bold">19h45 - 22h00</p>
+                        <div class="card">
+                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/parasite.jpg" alt="Affiche du film Parasite">
+                            <div class="card-body">
+                                <h4 class="card-title text-center font-weight-bold">Parasite</h4>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary font-weight-bold btn-details" data-toggle="modal" data-target="#film4" >Détails</button>
+                                </div>
+                                <div class="modal fade" id="film4" tabindex="-1" role="dialog" style="display:none;" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="modal-header">
+                                                        <h3 class="font-weight-bold">Parasite</h3>
+                                                        <button type="button" class="close" data-dismiss="modal">X</button>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-6 text-center">
+                                                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/parasite.jpg" alt="Affiche du film Parasite">
+                                                        </div>
+                                                        <div class="col-12 col-md-6 mt-3 infos-film">
+                                                            <p class="font-weight-bold mt-3">PARASITE</p>
+                                                            <p>5 juin 2019 en salle / 2h 12min / Thriller</p>
+                                                            <p>De Bong Joon Ho</p>
+                                                            <p>Avec Song Kang-Ho, Woo-sik Choi, Park So-Dam</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 mx-4">
+                                                            <p class="mt-3 font-weight-bold">SYNOPSIS </p>
+                                                            <p class="text-justify synopsis-film">Toute la famille de Ki-taek est au chômage, et s’intéresse fortement au train de vie de la richissime famille Park. 
+                                                                Un jour, leur fils réussit à se faire recommander pour donner des cours particuliers d’anglais chez les Park. C’est le début d’un engrenage incontrôlable, 
+                                                                dont personne ne sortira véritablement indemne...</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-5">
+                        <p class="horaire text-center font-weight-bold">22h10 - 00h00</p>
+                        <div class="card">
+                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/psychose.jpg" alt="Affiche du film Psychose">
+                            <div class="card-body">
+                                <h4 class="card-title text-center font-weight-bold">Psychose</h4>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary font-weight-bold btn-details" data-toggle="modal" data-target="#film5" >Détails</button>
+                                </div>
+                                <div class="modal fade" id="film5" tabindex="-1" role="dialog" style="display:none;" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="modal-header">
+                                                        <h3 class="font-weight-bold">Psychose</h3>
+                                                        <button type="button" class="close" data-dismiss="modal">X</button>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-6 text-center">
+                                                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/psychose.jpg" alt="Affiche du film Psychose">
+                                                        </div>
+                                                        <div class="col-12 col-md-6 mt-3 infos-film">
+                                                            <p class="font-weight-bold mt-3">PSYCHOSE</p>
+                                                            <p>2 novembre 1960 en salle / 1h 49min / Thriller, Epouvante-horreur</p>
+                                                            <p>De Alfred Hitchcock</p>
+                                                            <p>Avec Anthony Perkins, Janet Leigh, John Gavin</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 mx-4">
+                                                            <p class="mt-3 font-weight-bold">SYNOPSIS </p>
+                                                            <p class="text-justify synopsis-film">Marion Crane en a assez de ne pouvoir mener sa vie comme elle l'entend. Son travail ne la passionne plus, 
+                                                                son amant ne peut l'épouser car il doit verser une énorme pension alimentaire le laissant sans le sou... Mais un beau jour, son patron lui demande de déposer 40 000 dollars à la banque. 
+                                                                La tentation est trop grande, et Marion s'enfuit avec l'argent.
+                                                                Très vite la panique commence à se faire sentir. Partagée entre l'angoisse de se faire prendre et l'excitation de mener une nouvelle vie, 
+                                                                Marion roule vers une destination qu'elle n'atteindra jamais. La pluie est battante, la jeune femme s'arrête près d'un motel, tenu par un sympathique gérant nommé Norman Bates, 
+                                                                mais qui doit supporter le caractère possessif de sa mère.
+                                                                Après un copieux repas avec Norman, Marion prend toutes ses précautions afin de dissimuler l'argent. Pour se délasser de cette journée, elle prend une douche...</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container col-12 pt-3">
+                    <div class="row" id="aout7">   
+                        <div class="col-8 offset-2 col-md-4 offset-md-4 titreh3">
+                            <h3 class="font-weight-bold">Samedi 7 Août</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 mt-5">
+                        <p class="horaire text-center font-weight-bold">18h00 - 19h40</p>
+                        <div class="card">
+                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/drive.jpg" alt="Affiche du film Drive">
+                            <div class="card-body">
+                                <h4 class="card-title text-center font-weight-bold">Drive</h4>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary font-weight-bold btn-details" data-toggle="modal" data-target="#film6" >Détails</button>
+                                </div>
+                                <div class="modal fade" id="film6" tabindex="-1" role="dialog" style="display:none;" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="modal-header">
+                                                        <h3 class="font-weight-bold">Drive</h3>
+                                                        <button type="button" class="close" data-dismiss="modal">X</button>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-6 text-center">
+                                                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/drive.jpg" alt="Affiche du film Drive">
+                                                        </div>
+                                                        <div class="col-12 col-md-6 mt-3 infos-film">
+                                                            <p class="font-weight-bold mt-3">DRIVE</p>
+                                                            <p>5 octobre 2011 en salle / 1h 40min / Action, Thriller</p>
+                                                            <p>De Nicolas Winding Refn</p>
+                                                            <p>Avec Ryan Gosling, Carey Mulligan, Bryan Cranston</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 mx-4">
+                                                            <p class="mt-3 font-weight-bold">SYNOPSIS </p>
+                                                            <p class="text-justify synopsis-film">Un jeune homme solitaire, "The Driver", conduit le jour à Hollywood pour le cinéma en tant que cascadeur et la nuit pour des truands. 
+                                                                Ultra professionnel et peu bavard, il a son propre code de conduite. Jamais il n’a pris part aux crimes de ses employeurs autrement qu’en conduisant - et au volant, il est le meilleur !
+                                                                Shannon, le manager qui lui décroche tous ses contrats, propose à Bernie Rose, un malfrat notoire, d’investir dans un véhicule pour que son poulain puisse affronter les circuits de stock-car professionnels. 
+                                                                Celui-ci accepte mais impose son associé, Nino, dans le projet. C’est alors que la route du pilote croise celle d’Irene et de son jeune fils. Pour la première fois de sa vie, il n’est plus seul.
+                                                                Lorsque le mari d’Irene sort de prison et se retrouve enrôlé de force dans un braquage pour s’acquitter d’une dette, il décide pourtant de lui venir en aide. L’expédition tourne mal…
+                                                                Doublé par ses commanditaires, et obsédé par les risques qui pèsent sur Irene, il n’a dès lors pas d’autre alternative que de les traquer un à un…</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-5">
+                        <p class="horaire text-center font-weight-bold">19h50 - 22h00</p>
+                        <div class="card">
+                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/le-cercle-des-poetes-disparus.jpg" alt="Affiche du film Le cercle des poètes disparus">
+                            <div class="card-body">
+                                <h4 class="card-title text-center font-weight-bold">Le cercle des poètes disparus</h4>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary font-weight-bold btn-details" data-toggle="modal" data-target="#film7" >Détails</button>
+                                </div>
+                                <div class="modal fade" id="film7" tabindex="-1" role="dialog" style="display:none;" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="modal-header">
+                                                        <h3 class="font-weight-bold">Le cercle des poètes disparus</h3>
+                                                        <button type="button" class="close" data-dismiss="modal">X</button>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-6 text-center">
+                                                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/le-cercle-des-poetes-disparus.jpg" alt="Affiche du film Le cercle des poètes disparus">
+                                                        </div>
+                                                        <div class="col-12 col-md-6 mt-3 infos-film">
+                                                            <p class="font-weight-bold mt-3">LE CERCLE DES POÈTES DISPARUS</p>
+                                                            <p>17 janvier 1990 en salle / 2h 08min / Comédie dramatique</p>
+                                                            <p>De Peter Weir</p>
+                                                            <p>Avec Robin Williams, Ethan Hawke, Robert Sean Leonard</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 mx-4">
+                                                            <p class="mt-3 font-weight-bold">SYNOPSIS </p>
+                                                            <p class="text-justify synopsis-film">Todd Anderson, un garçon plutôt timide, est envoyé dans la prestigieuse académie de Welton, réputée pour être l'une des plus fermées et austères des États-Unis, là où son frère avait connu de brillantes études. 
+                                                                C'est dans cette université qu'il va faire la rencontre d'un professeur de lettres anglaises plutôt étrange, Mr Keating, qui les encourage à toujours refuser l'ordre établi. Les cours de Mr Keating vont bouleverser la vie de l'étudiant réservé et de ses amis...</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-5">
+                        <p class="horaire text-center font-weight-bold">22h10 - 00h00</p>
+                        <div class="card">
+                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/whiplash.jpg" alt="Affiche du film Whiplash">
+                            <div class="card-body">
+                                <h4 class="card-title text-center font-weight-bold">Whiplash</h4>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary font-weight-bold btn-details" data-toggle="modal" data-target="#film8" >Détails</button>
+                                </div>
+                                <div class="modal fade" id="film8" tabindex="-1" role="dialog" style="display:none;" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="modal-header">
+                                                        <h3 class="font-weight-bold">Whiplash</h3>
+                                                        <button type="button" class="close" data-dismiss="modal">X</button>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-6 text-center">
+                                                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/whiplash.jpg" alt="Affiche du film Whiplash">
+                                                        </div>
+                                                        <div class="col-12 col-md-6 mt-3 infos-film">
+                                                            <p class="font-weight-bold mt-3">WHIPLASH</p>
+                                                            <p>24 décembre 2014 en salle / 1h 47min / Drame, Musical</p>
+                                                            <p>De Damien Chazelle</p>
+                                                            <p>Avec Miles Teller, J.K. Simmons, Paul Reiser</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 mx-4">
+                                                            <p class="mt-3 font-weight-bold">SYNOPSIS </p>
+                                                            <p class="text-justify synopsis-film">Andrew, 19 ans, rêve de devenir l’un des meilleurs batteurs de jazz de sa génération. Mais la concurrence est rude au conservatoire de Manhattan où il s’entraîne avec acharnement. 
+                                                                Il a pour objectif d’intégrer le fleuron des orchestres dirigé par Terence Fletcher, professeur féroce et intraitable. Lorsque celui-ci le repère enfin, Andrew se lance, sous sa direction, dans la quête de l’excellence...</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container col-12 pt-3">
+                    <div class="row"  id="aout8">   
+                        <div class="col-8 offset-2 col-md-4 offset-md-4 titreh3">
+                            <h3 class="font-weight-bold">Dimanche 8 Août</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 mt-5">
+                        <p class="horaire text-center font-weight-bold">18h00 - 19h55</p>
+                        <div class="card">
+                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/taxi-driver.jpg" alt="Affiche du film Taxi driver">
+                            <div class="card-body">
+                                <h4 class="card-title text-center font-weight-bold">Taxi driver</h4>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary font-weight-bold btn-details" data-toggle="modal" data-target="#film9" >Détails</button>
+                                </div>
+                                <div class="modal fade" id="film9" tabindex="-1" role="dialog" style="display:none;" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="modal-header">
+                                                        <h3 class="font-weight-bold">Taxi driver</h3>
+                                                        <button type="button" class="close" data-dismiss="modal">X</button>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-6 text-center">
+                                                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/taxi-driver.jpg" alt="Affiche du film Taxi driver">
+                                                        </div>
+                                                        <div class="col-12 col-md-6 mt-3 infos-film">
+                                                            <p class="font-weight-bold mt-3">TAXI DRIVER</p>
+                                                            <p>2 juin 1976 en salle / 1h 55min / Drame, Policier</p>
+                                                            <p>De Martin Scorsese</p>
+                                                            <p>Avec Robert De Niro, Jodie Foster, Harvey Keitel</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 mx-4">
+                                                            <p class="mt-3 font-weight-bold">SYNOPSIS </p>
+                                                            <p class="text-justify synopsis-film">Vétéran de la Guerre du Vietnam, Travis Bickle est chauffeur de taxi dans la ville de New York. Ses rencontres nocturnes et la violence quotidienne dont il est témoin lui font peu à peu perdre la tête. 
+                                                                Il se charge bientôt de délivrer une prostituée mineure de ses souteneurs.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-5">
+                        <p class="horaire text-center font-weight-bold">20h05 - 22h05</p>
+                        <div class="card">
+                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/her.jpg" alt="Affiche du film Her">
+                            <div class="card-body">
+                                <h4 class="card-title text-center font-weight-bold">Her</h4>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary font-weight-bold btn-details" data-toggle="modal" data-target="#film10" >Détails</button>
+                                </div>
+                                <div class="modal fade" id="film10" tabindex="-1" role="dialog" style="display:none;" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="modal-header">
+                                                        <h3 class="font-weight-bold">Her</h3>
+                                                        <button type="button" class="close" data-dismiss="modal">X</button>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-6 text-center">
+                                                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/her.jpg" alt="Affiche du film Her">
+                                                        </div>
+                                                        <div class="col-12 col-md-6 mt-3 infos-film">
+                                                            <p class="font-weight-bold mt-3">HER</p>
+                                                            <p>19 mars 2014 en salle / 2h 06min / Drame, Romance, Science fiction</p>
+                                                            <p>De Spike Jonze</p>
+                                                            <p>Avec Joaquin Phoenix, Amy Adams, Rooney Mara</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 mx-4">
+                                                            <p class="mt-3 font-weight-bold">SYNOPSIS </p>
+                                                            <p class="text-justify synopsis-film">Los Angeles, dans un futur proche. Theodore Twombly, un homme sensible au caractère complexe, est inconsolable suite à une rupture difficile. 
+                                                                Il fait alors l'acquisition d'un programme informatique ultramoderne, capable de s'adapter à la personnalité de chaque utilisateur. En lançant le système, il fait la connaissance de 'Samantha', 
+                                                                une voix féminine intelligente, intuitive et étonnamment drôle. Les besoins et les désirs de Samantha grandissent et évoluent, tout comme ceux de Theodore, et peu à peu, ils tombent amoureux…</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-5">
+                        <p class="horaire text-center font-weight-bold">22h15 - 23h45</p>
+                        <div class="card">
+                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/eraserhead.jpg" alt="Affiche du film Eraserhead">
+                            <div class="card-body">
+                                <h4 class="card-title text-center font-weight-bold">Eraserhead</h4>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-primary font-weight-bold btn-details" data-toggle="modal" data-target="#film11" >Détails</button>
+                                </div>
+                                <div class="modal fade" id="film11" tabindex="-1" role="dialog" style="display:none;" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="modal-header">
+                                                        <h3 class="font-weight-bold">Eraserhead</h3>
+                                                        <button type="button" class="close" data-dismiss="modal">X</button>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 col-md-6 text-center">
+                                                            <img class="card-img-top mx-auto mt-4 img-film" src="img/films/eraserhead.jpg" alt="Affiche du film Eraserhead">
+                                                        </div>
+                                                        <div class="col-12 col-md-6 mt-3 infos-film">
+                                                            <p class="font-weight-bold mt-3">ERASERHEAD</p>
+                                                            <p>7 juin 1978 en salle / 1h 29min / Fantastique, Drame, Epouvante-horreur</p>
+                                                            <p>De David Lynch</p>
+                                                            <p>Avec Jack Nance, Charlotte Stewart, Allen Joseph</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-12 mx-4">
+                                                            <p class="mt-3 font-weight-bold">SYNOPSIS </p>
+                                                            <p class="text-justify synopsis-film">Un homme est abandonné par son amie qui lui laisse la charge d'un enfant prématuré, fruit de leur union. 
+                                                            Il s'enfonce dans un univers fantasmatique pour fuir cette cruelle réalité.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 pb-5 text-center">
+                <button type="submit" class="btn btn-primary font-weight-bold btn-telecharger">Télécharger le programme</button>
+            </div>
+            <div class="container col-12 pt-3 fond-orange">
+                <div class="row" id="restauration-link">   
+                    <div class="col-8 offset-2 col-md-4 offset-md-4 titreh3">
+                        <h3 class="font-weight-bold ">Restauration</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container col-12 pt-5 fond-orange">
+                <div class="row">   
+                    <div class="col-12 col-8 col-md-6 mb-2">
+                        <p class="font-weight-bold text-justify">Integer efficitur tellus sit amet cursus laoreet. Curabitur nec dui turpis. Integer malesuada risus at convallis scelerisque. 
+                            Ut dignissim diam id eleifend placerat. Cras congue erat orci, vel maximus odio iaculis nec. Donec in lorem risus.</p>
+                    </div>
+                    <div class="col-12 col-8 col-md-2 mb-2">
+                        <img class="card-img-top img-restauration" src="img/viande.jpg" alt=”...”>
+                    </div>
+                    <div class="col-12 col-8 col-md-2 mb-2">
+                        <img class="card-img-top img-restauration" src="img/hamburger.jpg" alt=”...”>
+                    </div>
+                    <div class="col-12 col-8 col-md-2 mb-2">
+                        <img class="card-img-top img-restauration" src="img/saumon.jpg" alt=”...”>
+                    </div>
+                </div>
+            </div>
+            <div class="container col-12 pt-5 fond-orange">
+                <div class="row" id="acces-link">   
+                    <div class="col-8 offset-2 col-md-4 offset-md-4 titreh3">
+                        <h3 class="font-weight-bold ">Accès</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container col-12 pt-5 fond-orange">
+                <div class="row">   
+                    <div class="col-12 col-md-6 hauteur-acces">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8735531365915!2d2.3067663150883093!3d48.87968700716192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fbe98f714c3%3A0xe62425fddeddc402!2sParc%20Monceau!5e0!3m2!1sfr!2sfr!4v1574549885970!5m2!1sfr!2sfr" 
+                        width="100%" height="100%" frameborder="0" style="border:0; padding: 10px; border-radius: 16px;" allowfullscreen=""></iframe>
+                    </div>
+                    <div class="col-12 col-md-6 hauteur-acces">
+                        <p class="mt-3"><span class="font-weight-bold">Parc Monceau</span><br />
+                        35, boulevard de Courcelles<br />
+                        75008 PARIS</p>
+                        <p><span class="font-weight-bold">Métro :</span><br />
+                        Monceau, ligne 2</p>
+                        <p>Pour toutes informations supplémentaires vous pouvez consulter le site de <a href="https://www.parisinfo.com/musee-monument-paris/71356/Parc-Monceau" class="lien-acces font-weight-bold" target="_blank">l'office de tourisme de Paris.</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer>           
+            <div class="container col-12">
+                <div class="row">   
+                    <div class="col-12 col-md-3 pt-3">
+                        <img src="img/logo2.png" class="logo" alt="Site logo"></a>
+                    </div>
+                    <div class="col-12 col-md-3 pt-3 pt-md-5">
+                        <ul>
+                            <li><a class="link-footer" href="accueil.html">Accueil</a></li>
+                            <li><a class="link-footer" href="programmation.html">Programmation</a></li>
+                            <li><a class="link-footer" href="actualite.html">Actualité</a></li>
+                            <li><a class="link-footer" href="contact.html">Contact</a></li>
+                            <li><a class="link-footer" href="reserver.html">Réserver</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3 pt-3 pt-md-5">
+                        <ul>
+                            <li class="font-weight-bold titre-footer">Nous contacter</li><br />
+                            <li>Adresse de l'association:<br />35 Boulevard de Courcelles,<br />75008 Paris</li>
+                            <li>Téléphone:<br />01 00 00 00 00</li>
+                            <li>E-Mail:<br /><a class="link-footer" href="mailto:contact@films-en-plein-air.fr "> contact@films-en-plein-air.fr</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-3 pt-3 pt-md-5">
+                        <ul>
+                            <li class="font-weight-bold titre-footer">En Savoir Plus</li><br />
+                            <li><a class="link-footer" href="mentions-legales.html" target="_blank">Mentions Légales</a></li>
+                            <li><a class="link-footer" href="confidentialite.html" target="_blank">Politique de confidentialité</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        <script>$(document).ready(function() {
+            $(".dropdown-toggle").dropdown();
+        });</script>
+    </body>
+</html>

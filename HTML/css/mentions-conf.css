@@ -1,0 +1,35 @@
+h1 {
+    color: #292929;
+}
+
+p {
+    color: #292929;
+}
+
+.text-mentions {
+    padding-top: 7rem;
+}
+
+.link-mentions {
+    color:  #292929;
+}
+
+.link-mentions:hover {
+    color:  #F7AC20;
+}
+
+.text-mentions h3 {
+    font-size: 22px;
+}
+
+@media (max-width: 768px) {
+    
+    h1 {
+        font-size: 2rem !important;
+    }
+
+    .text-mentions h3 {
+        font-size: 17px;
+    }
+
+  }

@@ -1,0 +1,212 @@
+/*------Ancres menu--------*/
+
+#aout5, #aout6, #aout7, #aout8, #restauration-link, #acces-link {
+    padding-top: 100px;
+}
+
+/*------jumbotron header--------*/
+
+.change {
+    background: no-repeat top center url("../img/programmation.jpg");
+	background-size: cover;
+    width: 100%;
+    height: 750px;
+    margin: 0 !important;
+}
+
+.jumbotron {
+    padding-top: 4rem !important;
+}
+
+.fond h1 {
+    margin-top: 28.5rem;
+    color:  #FBFBFB;
+    font-size: 3rem;
+    font-family: 'oswald', sans-serif;
+}
+
+.titreh3 {
+    color:  #292929;
+}
+
+.fond p {
+    color:  #FBFBFB;
+    font-size: 25px;
+}
+
+.cont-separator {
+    height: 60px;
+    margin: 0 !important;
+    background-color: #292929 !important;
+}
+
+.cont-menu {
+    height: 90px;
+    margin: 0 !important;
+    background-color: #292929 !important;
+}
+
+/*------Texte intro--------*/
+
+.intro-programmation {
+    text-align: justify;
+    background-color: #F7AC20;
+}
+
+.titreh3 {
+    color: #292929;
+}
+
+.card-title {
+    color: #292929;
+}
+
+/*------Titres séparateurs--------*/
+
+.titreh3 {
+    border-top: 5px dashed #292929;
+    border-bottom: 5px dashed #292929;
+    text-align: center;
+}
+
+/*------Contenu card--------*/
+
+h4 {
+    height: 60px;
+}
+
+.horaire {
+    background-color:  #FAC57D;
+}
+
+.card {
+    background-color: #FAC57D !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.card-body {
+    padding: 1rem !important;;
+}
+
+.img-film {
+    width: 80% !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.infos-film {
+    padding-right: 30px !important;
+}
+
+.synopsis-film {
+    padding-right: 45px !important;
+}
+
+.btn-details {
+    width: 110px;
+    color: #292929 !important;
+    background-color: #D38300 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.btn-details:active {
+    color: #D38300 !important;
+    background-color: #292929 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.btn-details:hover {
+    color: #D38300 !important;
+    background-color: #292929 !important;
+}
+
+/*------Bouton téléchargement--------*/
+
+.btn-telecharger {
+    width: 300px !important;
+    font-size: 20px !important;
+    color: #292929 !important;
+    background-color: #D38300 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.btn-telecharger:active {
+    color: #D38300 !important;
+    background-color: #292929 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.btn-telecharger:hover {
+    color: #D38300 !important;
+    background-color: #292929 !important;
+}
+
+/*------Restauration--------*/
+
+.img-restauration {
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+
+.fond-orange {
+    background-color: #F7AC20;
+}
+
+/*------Accès--------*/
+
+.lien-acces {
+    color: #292929 !important;
+}
+
+.lien-acces:hover {
+    color: #FBFBFB !important;
+}
+
+.hauteur-acces {
+    height: 25rem;
+}
+
+iframe {
+    border-radius: 0 !important;
+}
+
+@media (max-width: 768px) {
+
+    .change {
+        height: 330px;
+    }
+
+    .cont-separator {
+        height: 30px;
+    }
+
+    .fond h1 {
+        font-size: 1.5rem;
+        margin-top: 10rem;
+    }
+
+    .card {
+        height: 530px;;
+    }
+
+    .hauteur-acces {
+        height: 20rem;
+    }
+
+    .modal-dialog {
+        width: 96% !important;
+    }
+
+    .infos-film {
+        padding-left: 2.5rem !important;
+    }
+}

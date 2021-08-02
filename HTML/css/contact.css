@@ -1,0 +1,93 @@
+/*------jumbotron header--------*/
+
+.change {
+    background: no-repeat top center url("../img/contact.jpg");
+	background-size: cover;
+    width: 100%;
+    height: 750px;
+    margin: 0 !important;
+}
+
+.fond h1 {
+    margin-top: 28.5rem;
+    color:  #FBFBFB;
+    font-size: 3rem;
+    font-family: 'oswald', sans-serif;
+}
+
+.titreh3 {
+    color:  #292929;
+}
+
+.fond p {
+    color:  #FBFBFB;
+    font-size: 25px;
+}
+
+.cont-separator {
+    height: 60px;
+    margin: 0 !important;
+    background-color: #292929 !important;
+}
+
+.cont-menu {
+    height: 90px;
+    margin: 0 !important;
+    background-color: #292929 !important;
+}
+
+/*------Titres séparateurs--------*/
+
+.titreh3 {
+    border-top: 5px dashed #292929;
+    border-bottom: 5px dashed #292929;
+    text-align: center;
+}
+
+/*------Formulaire--------*/
+
+.fond-contact {
+    background-color: #FAC57D;
+}
+
+.form-control {
+    border-radius: 0 !important;
+}
+
+.btn-envoyer {
+    width: 150px !important;
+    font-size: 20px !important;
+    color: #292929 !important;
+    background-color: #D38300 !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.btn-envoyer:active {
+    color: #D38300 !important;
+    background-color: #292929 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.btn-envoyer:hover {
+    color: #D38300 !important;
+    background-color: #292929 !important;
+}
+
+@media (max-width: 768px) {
+
+    .change {
+        height: 330px;
+    }
+
+    .fond h1 {
+        font-size: 1.5rem;
+        margin-top: 14rem;
+    }
+
+    .cont-separator {
+        height: 30px;
+    }
+}

@@ -1,0 +1,40 @@
+.retour-actu {
+    padding-top: 7rem !important;
+}
+
+.retour-actu a {
+    color: #292929;
+}
+
+.retour-actu a:hover {
+    color: #F7AC20;
+}
+
+h1 {
+  
+    font-weight: 700 !important;
+}
+
+p {
+   text-align: justify;
+}
+
+.img-fiche-actu {
+    width: 35rem !important;
+}
+
+@media (max-width: 768px) {
+
+    .img-fiche-actu {
+        width: 100% !important;
+    }
+
+    h1 {
+        font-size: 1.5rem !important;
+        font-weight: 700 !important;
+    }
+
+    p {
+        font-size: 13px !important;
+    }
+}
